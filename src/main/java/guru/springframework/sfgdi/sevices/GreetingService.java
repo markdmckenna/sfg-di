@@ -1,7 +1,8 @@
 package guru.springframework.sfgdi.sevices;
 
-public interface
-GreetingService {
+import org.springframework.context.annotation.Primary;
+
+public interface GreetingService {
 
     String sayGreeting();
 
